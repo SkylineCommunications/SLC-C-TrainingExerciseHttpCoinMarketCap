@@ -2,7 +2,7 @@
 
 ## Description
 
-The goal of this exercise is to implement the CoinMarketCap API calls (https://coinmarketcap.com/api/)
+The goal of this exercise is to implement the CoinMarketCap API calls (https://pro-api.coinmarketcap.com/)
 Before starting the exercise:
 
 * Create a CoinMarketCap account.
