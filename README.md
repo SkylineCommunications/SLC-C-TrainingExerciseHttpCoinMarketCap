@@ -2,18 +2,15 @@
 
 ## Description
 
-The goal of this exercise is to implement the CoinMarketCap API calls (https://pro-api.coinmarketcap.com/)
-Before starting the exercise:
+The goal of this exercise is to implement the CoinMarketCap API calls to https://trainingdmadriverdevelopment-skylineacademy.on.dataminer.services
+The Bearer token to use is available in the Skyline Communications organization section on https://passwords.skyline.be/
 
-* Create a CoinMarketCap account.
-* Generate an API key.
-* Read the API quick start guide.
-* Implement the following endpoints/call (only implement the useful columns, free to choose).
-  * GET /v1/cryptocurrency/listings/latest
-  * GET /v1/cryptocurrency/categories
+* Please implement the following endpoints/call (only implement the useful columns, free to choose).
+  * GET /api/custom/coinmarketcap?content=latestlistings
+  * GET /api/custom/coinmarketcap?content=categories
     * Refresh button on row level for an individual category.
-    * v1/cryptocurrency/category?id={CategoryId}
-  * GET /v1/global-metrics/quotes/latest
+    * /api/custom/coinmarketcap?content=category&id={CategoryId}
+  * GET /api/custom/coinmarketcap?content=latestquotes
 
 ## Pointers
 
